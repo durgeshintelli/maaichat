@@ -99,7 +99,7 @@ namespace AiChatService
             //return JsonConvert.DeserializeObject<AIResponse>(jsonText);
             List<AiResult> objre=new List<AiResult> ();
             AiResult air = new AiResult();
-            
+             air.speech = "test data";
 
             return air;
         }
